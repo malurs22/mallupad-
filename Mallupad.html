@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malurs Pad</title>
+    <!-- Link da fonte Lato do Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Lato', sans-serif; /* Aplicando a fonte Lato */
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .container {
+            background-color: white;
+            width: 80%; /* Largura ajustada para maior margem lateral */
+            max-width: 800px; /* Largura máxima para não exceder o layout */
+            margin-top: 20px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .header {
+            text-align: center;
+        }
+
+        .header img {
+            max-width: 200px;
+            margin-bottom: 20px;
+        }
+
+        .cover img {
+            width: 100%;
+            max-height: 20000px; /* Ajustado para manter uma altura apropriada */
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .small-image {
+            width: 100%;
+            max-width: 300px; /* Ajuste o tamanho máximo da imagem pequena conforme necessário */
+            margin: 20px auto;
+            display: block;
+            border-radius: 5px;
+        }
+
+        h1 {
+            font-size: 2em;
+            color: #333;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            color: #666;
+            text-align: center;
+            margin-top: -10px;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #333;
+            margin-bottom: 20px;
+            text-align: justify;
+            text-indent: 2em;
+        }
+
+        .centered {
+            text-align: center;
+            margin-bottom: 20px; /* Ajustado para mais espaço abaixo do parágrafo */
+        }
+
+        .justified {
+            text-align: justify;
+        }
+
+        hr {
+            border: 0;
+            height: 4px;
+            background: #ccc;
+            margin: 20px 0;
+        }
+
+        .link-to-text {
+            display: block;
+            text-align: center;
+            margin: 20px 0;
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        .link-to-text:hover {
+            text-decoration: underline;
+        }
+
+        #full-text {
+            display: none; /* Oculta o texto inicialmente */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Cabeçalho com o logo do Wattpad -->
+        <div class="header">
+            <img src="C:\Users\User\Downloads\ficwtt\logo.mallu2.png" alt="Logo do Wattpad">
+        </div>
+
+        <!-- Imagem de capa -->
+        <div class="cover">
+            <img src="C:\Users\User\Downloads\ficwtt\Cart-fic.png" alt="Imagem de Capa">
+        </div>
+
+        <!-- Imagem pequena embaixo da capa -->
+        <img class="small-image" src="C:\Users\User\Downloads\ficwtt\view2.png" alt="Imagem Pequena">
+
+        <!-- Título, subtítulo e texto -->
+        <h1>When The Right One Comes Along</h1>
+        <h2>Fanfic One Shot</h2>
+        <p class="centered">
+            Oi, pessoal! Essa é uma one shot inspirada em uma história que realmente aconteceu.</p>
+            <p> As protagonistas são uma psicóloga e uma estudante de TI que, por uma coincidência do destino, se conheceram no Twitter e desde então não pararam de conversar. Elas não imaginavam o quanto esse simples "oi" mudaria suas vidas. 
+            
+            Essa fic retrata o primeiro encontro delas, que foi tudo, menos comum. Ninguém sabia dos sentimentos que estavam surgindo entre as duas — na verdade, nem elas tinham certeza. Mas às vezes a gente só sabe que a pessoa certa chegou, sem música ou fogos de artifício assim como minha música favorita de Nashville - When the Right One Comes Along.
+
+            Espero que gostem! 😊
+            <a href="#" class="link-to-text" onclick="showText(); return false;">Gostaria de ler? Clique aqui e leia</a>
+        </p>
+        <hr> <!-- Linha horizontal entre parágrafos -->
+
+        <!-- Texto principal com ID para navegação interna -->
+        <div id="full-text">
+            <p>
+                Tudo começou com uma busca simples no Twitter. Malu, uma estudante de TI e fã apaixonada de vôlei, estava atrás de um ingresso para o último jogo da lenda Sheilla Castro para sua amiga. No meio da sua procura, Ana, uma psicóloga também fã de vôlei, viu o tweet de Malu e sem pensar duas vezes, chamou Malu na DM e contou que sabia quem estava vendendo tal ingresso, e assim, começou a conversa que mudaria suas vidas.
+            </p>
+            <p>
+                A partir dali, a conversa fluiu como se elas se conhecessem há anos. No início, falavam sobre o jogo, mas logo os tópicos se expandiram para música, séries, e seus hobbies. Elas se tornaram inseparáveis online, trocando mensagens a qualquer hora do dia. A conexão era imediata e envolvente, como se o destino tivesse brincado de unir seus caminhos.
+            </p>
+        </p>
+        <p class="justified">
+            Dias depois, Malu fez aniversário. Ela organizou uma festa com amigos, regada a risadas, bebidas e algumas escolhas questionáveis. Conhecida por ser "cool", Malu tinha a fama de não se apegar a ninguém, de aproveitar a vida e manter seu coração livre. Então, apesar da crescente conexão com Ana, não a convidou para a comemoração.
+        </p>   
+        <p class="justified">
+            Ana chegou primeiro ao restaurante, ansiosa e um pouco nervosa. Malu apareceu logo depois, acompanhada por suas amigas, que ainda estavam na ressaca da noite anterior. O ambiente era leve e descontraído, mas Malu e Ana trocavam olhares tímidos e curiosos, sem saber se a outra sentia o mesmo. As amigas, sem saber da conexão especial que se formava entre as duas, conversavam alto e faziam piadas sobre a festa anterior, completamente alheias ao que se passava entre elas.
+        </p>
+        <p class="justified">
+            Durante o almoço, Malu tentava prestar atenção nas conversas das amigas, mas seus olhos e pensamentos estavam sempre voltados para Ana. Cada troca de olhares parecia carregar uma pergunta não dita: "Será que ela sente o mesmo?". Ana, por sua vez, sorria e se envolvia nas conversas, mas sempre havia aquele nervosismo sutil, aquela expectativa.
+        </p>
+        <p>
+            Quando o almoço terminou, elas se despediram com sorrisos, ainda sem saber exatamente o que sentiam. Não houve música tocando, não houve fogos de artifício, ninguém gritou e nem os sinos tocaram. Mas Malu soube. Ao ver Ana se afastar junto com as amigas, sentiu que algo havia mudado dentro dela.
+        </p>
+        <p>
+            Malu, que sempre dizia não se apegar, começou a perceber que aquilo não era só uma amizade. Era um sentimento calmo e ao mesmo tempo intenso, algo que a fazia querer saber mais, estar mais perto de Ana.
+
+        </p>
+        <p>
+            E Ana? Ela também sentia algo. Mesmo sem música ou confete, sabia que o encontro com Malu, por mais caótico que tivesse sido, foi especial. O "primeiro encontro" pode ter sido com testemunhas, mas só elas entendiam o que realmente estava acontecendo ali — e, aos poucos, estavam descobrindo isso juntas.
+
+        </p>
+        <p>
+            Enquanto se afastava do restaurante, Malu pensava nas conversas que ela e Ana tinham tido pelo Twitter. Ela conhecia muita gente, fazia amizades com facilidade, mas aquela conexão era diferente. Por mais que se envolvesse com outras pessoas, sabia que nada seria como o que estava construindo com Ana. Havia algo único ali, algo que a fazia querer mais, mesmo sem entender totalmente o que sentia.
+
+        </p>
+
+<hr>
+
+        <p class="centered"><b>FIM</b> </p>
+           <p class="centered"> E aí, o que acharam? 😍</p>
+             <p>Espero que tenham gostado dessa one shot de Malu e Ana! Eu amei contar essa história cheia de conexões inesperadas e olhares tímidos. Comentem muito aqui embaixo, quero saber o que acharam desse primeiro encontro meio caótico, mas cheio de sentimentos. 🥰 
+             </p>
+             <p>Quem sabe um dia eu volto com mais capítulos sobre o que acontece com elas depois desse almoço… Será que tem mais encontros por aí? 👀
+            Deixem seu apoio, que isso pode inspirar mais histórias dessas duas! ✨</p>
+            <p class="centered"> Até a próxima! 💖</p>
+        </div>
+    </div>
+
+    <script>
+        function showText() {
+            document.getElementById('full-text').style.display = 'block';
+        }
+    </script>
+
+</body>
+</html>
